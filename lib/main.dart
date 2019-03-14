@@ -2,16 +2,22 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:edc/screens/homepage.dart';
 
-void main() => runApp(
-      MaterialApp(
+void main() => runApp(new MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
         theme: ThemeData(
           primaryColor: Colors.black,
           accentColor: Colors.white,
         ),
         debugShowCheckedModeBanner: false,
         home: SplashScreen(),
-      ),
-    );
+      );  
+
+  }
+}
 
 class SplashScreen extends StatefulWidget {
   @override
