@@ -1,0 +1,51 @@
+name: edc
+description: The official app of the Entrepreneurship Development Cell, BVUCOEP.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  flutter_webview_plugin: ^0.3.0+2
+  font_awesome_flutter: ^8.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.0"
+
+flutter_icons:
+  image_path: "assets/edc_logo.png"
+  android: true   
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/edc_logo.png
+   - assets/Hackitas_Logo_Final1.png
+   - assets/SIPP 1.png
+   - assets/photo 3 copy.png
+   - assets/bc.jpg
+   - assets/SIPP2.png
+   - assets/pb.png
+   - assets/b.png 
+   - assets/download.png
+   - assets/ha1.png
+   - assets/output.gif
+   - assets/edc_logo_png.png
+   - assets/esummit2K19.png 
+
+  fonts:
+    - family: Product Sans    
+      fonts:
+        - asset: fonts\Product Sans Regular.ttf
+        - asset: fonts\Product Sans Bold.ttf
+          
+ 
